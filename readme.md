@@ -26,43 +26,43 @@ Inside of the resources folder, you will find the application.properties file. T
 
 ## API
 
-/user/store
+```/user/store```
 
 Creates a New User
 
-/user/get
+```/user/get```
 
 Gets an array of all Users
 
-/game/store
+```/game/store```
 
 Creates a New Game
 
-/instance/store
+```/instance/store```
 
 Creates a New Instance
 
-/instance/update
+```/instance/update```
 
 Updates an Instance
 
-/score/store
+```/score/store```
 
 Stores a New Score (Or Updates a previous one)
 
-/score/showUser
+```/score/showUser```
 
 Get an array of a single User scores
 
-/score/showGame
+```/score/showGame```
 
 Get an array of a single Game scores
 
-/score/highScore
+```/score/highScore```
 
 Get an array of scores in Descending order from a single Game
 
-/score/get
+```/score/get```
 
 Get an array of all scores
 

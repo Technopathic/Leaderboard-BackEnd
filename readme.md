@@ -11,12 +11,15 @@ Java 1.8
 Gradle 4.2.1
 
 Then you'll clone this repo:
+
 ```git clone https://github.com/Technopathic/Leaderboard-BackEnd.git```
 
 The Leaderboard-BackEnd uses Gradle by default for build automation. In order to build the executable, you will run the following:
+
 ```./gradlew build```
 
 Then to run the build:
+
 ```java -jar build/libs/leaderboard-0.1.0.jar```
 
 Inside of the resources folder, you will find the application.properties file. This file is used to establish your Database Connection. By default, the configuration is set to migrate the schema upon each new server initialization, you may go ahead and change "create" to "none" after the first.
@@ -24,33 +27,43 @@ Inside of the resources folder, you will find the application.properties file. T
 ## API
 
 /user/store
+
 Creates a New User
 
 /user/get
+
 Gets an array of all Users
 
 /game/store
+
 Creates a New Game
 
 /instance/store
+
 Creates a New Instance
 
 /instance/update
+
 Updates an Instance
 
 /score/store
+
 Stores a New Score (Or Updates a previous one)
 
 /score/showUser
+
 Get an array of a single User scores
 
 /score/showGame
+
 Get an array of a single Game scores
 
 /score/highScore
+
 Get an array of scores in Descending order from a single Game
 
 /score/get
+
 Get an array of all scores
 
 

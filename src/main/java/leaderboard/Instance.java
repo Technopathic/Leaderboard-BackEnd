@@ -1,0 +1,68 @@
+package leaderboard;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Instance {
+  @Id
+  @GeneratedValue(strategy=GenerationType.AUTO)
+
+  private Integer id;
+  private Integer userID;
+  private Integer gameID;
+  private Boolean active;
+  private String created_at;
+  private String updated_at;
+
+  public Integer getId() {
+    return id;
+  }
+
+  public void setId(Integer id) {
+    this.id = id;
+  }
+
+  public Integer getUserID() {
+    return userID;
+  }
+
+  public void setUserID(Integer userID) {
+    this.userID = userID;
+  }
+
+  public Integer getGameID() {
+    return gameID;
+  }
+
+  public void setGameID(Integer gameID) {
+    this.gameID = gameID;
+  }
+
+  public Boolean getActive() {
+    return active;
+  }
+
+  public void setActive(Boolean active) {
+    this.active = active;
+  }
+
+  public String getCreatedAt() {
+    return created_at;
+  }
+
+  public String setCreatedAt() {
+    this.created_at = created_at;
+  }
+
+  public String getUpdatedAt() {
+    return updated_at;
+  }
+
+  public String setUpdatedAt() {
+    this.updated_at = updated_at;
+  }
+
+}

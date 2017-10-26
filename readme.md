@@ -11,6 +11,7 @@ To get started with developing the Leaderboard-BackEnd, you'll first meet the re
 * Java 1.8
 * Gradle 4.2.1
 * Knowledge of Spring.io
+* MySQL
 
 Then you'll clone this repo:
 

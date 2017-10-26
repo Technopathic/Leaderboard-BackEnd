@@ -7,8 +7,10 @@ The Leaderboard-BackEnd is a Java Spring Web Application which outputs a JSON AP
 ## Development
 To get started with developing the Leaderboard-BackEnd, you'll first meet the requirements:
 
-Java 1.8
-Gradle 4.2.1
+### Requirements
+* Java 1.8
+* Gradle 4.2.1
+* Knowledge of Spring.io
 
 Then you'll clone this repo:
 
